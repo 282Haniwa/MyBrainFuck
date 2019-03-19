@@ -5,8 +5,8 @@ const tokens = {
   VALUE_DECREMENT   : '-',
   PUT_CHARACTER     : '.',
   GET_CHARACTER     : ',',
-  LEFT_JUMP_KEY     : '[',
-  RIGHT_JUMP_KEY    : ']'
+  START_JUMP_BLOCK  : '[',
+  END_JUMP_BLOCK    : ']'
 }
 
 module.exports = tokens
