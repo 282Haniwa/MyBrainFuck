@@ -1,4 +1,11 @@
 {
+  "name": "brain-fuck",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node main.js -i",
+    "hello": "node main.js source/HelloWorld.b"
+  },
   "dependencies": {
     "readline-sync": "^1.4.9"
   }
