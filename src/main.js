@@ -1,6 +1,6 @@
 const fs = require('fs')
 const readlineSync = require('readline-sync')
-const BrainFuck = require('./src/BrainFuck')
+const BrainFuck = require('./BrainFuck')
 
 if (process.argv[2] === '-i' || process.argv[2] === '--interpreter') {
   // インタプリタモード
