@@ -31,6 +31,9 @@ class SemanticAnalyzer {
   }
 
   evaluate() {
+    if (this._tokenArray.length === 0) {
+      return ''
+    }
     this.clear()
     while (true) {
       const token = this._tokenArray[this._tokenIndex]
